@@ -1,0 +1,162 @@
+body {
+    position: relative;
+    background-color: #D8DFE8;
+    padding: 20px 0;
+    
+}
+
+footer {
+    text-align: center;
+}
+
+.logo{
+
+    margin: 0 auto;
+    
+}
+
+.cajaPrincipal {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.cajaIzquierda {
+    text-align: center;
+    grid-template-rows: auto;
+}
+
+.areaTexto {
+    width: 500px;
+    height: 400px;
+    background-color: #D8DFE8;
+    border: none;
+    resize: none;
+    border-radius: 1%;
+    font-size: 20px;
+}
+
+.areaTexto:hover {
+    border: 1px solid;
+    border-color: rgb(57, 63, 155);
+}
+
+::placeholder {
+    color: darkblue;
+    font-size: 20px;
+    font-style: Verdana;
+    
+}
+
+.textoAdvertencia {
+    padding: 20px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.signoAlerta {
+    color: red;
+}
+
+.botones {
+    width: 150px;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background: #3a5e8a;
+    border-radius: 10px;
+    border: none;
+}
+
+.botones:hover {
+    text-transform: uppercase;
+    font-size: 11px;
+    background: #0A3871;
+    transform: scale(1.05);
+}
+
+.areaTextoEncriptado {
+    width: 290px;
+    height: 420px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    resize: none;
+    display: none;
+}
+
+/*Todo del segundo Div*/
+.cajaDerecha {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.muñeco {
+    width: 250px;
+    padding-top: 20px;
+
+}
+
+.labelEncriptador {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+
+#parrafo1 {
+    padding: 50px;
+    font-weight: bold;
+    font-style: verdana;
+}
+
+#parrafo2 {
+    padding: 50px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.divCopiar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botonCopiar {
+    width: 120px;
+    margin-block: 30px;
+    color: white;
+    padding: 10px 20px;
+    background: #3a5e8a;
+    border-radius: 10px;
+    border: none;
+    display: none;
+}
+
+.botonCopiar:hover {
+    text-transform: uppercase;
+    font-size: 11px;
+    background: #0A3871;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px){
+    .cajaPrincipal{
+        flex-direction: column;
+    }
+    .cajaDerecha{
+        width: 500px;
+        height: 450px;
+    }
+
+    #parrafo1 {
+        padding: 10px;
+    }
+    
+    #parrafo2 {
+        padding: 10px;
+    }
+}

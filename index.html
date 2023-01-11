@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <img class="logo" src="img/logo.png" alt="Logo Alura">
+    
+    <main class="cajaPrincipal">
+        <div class="cajaIzquierda">
+            <textarea class="areaTexto" name="" id="areaEncriptar" cols="30" rows="10" placeholder="Ingrese texto aquí"></textarea>
+            <p class="textoAdvertencia">
+            <strong class="signoAlerta">⚠</strong>
+            "No se tendrá en cuenta acentos, todas las palabras se tomaran como minusculas"
+            <strong class="signoAlerta">⚠</strong>
+            </p>
+            <div>
+                <button class="botones" id="btnEncriptar">Encriptar</button>
+                <button class="botones" id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="cajaDerecha">
+            <label for="" class="labelEncriptador" id="mensajeEncriptado">
+                <img class="muñeco" src="img/fotoBuscador.png" alt="imagenBuscador">
+                <p id="parrafo1">Ningún mensaje fue encontrado</p>
+                <p id="parrafo2">Ingrese el texto que desees encriptar o desecriptar</p>
+            </label>
+            <textarea name="" class="areaTextoEncriptado" id="areaTextoEncriptado" cols="30" rows="10"></textarea>
+            <div class="divCopiar">
+                <button class="botonCopiar" id="btnCopiar">Copiar</button>
+                <button class="botonCopiar" id="btnLimpiar">Limpiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="encriptar-desencriptar.js"></script>
+</body>
+<footer>
+    <p>Programa realizado por @RedHawk</p>
+</footer>
+</html>
