@@ -76,6 +76,16 @@ footer {
     transform: scale(1.05);
 }
 
+
+/*Todo del segunda section*/
+.cajaDerecha {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
 .areaTextoEncriptado {
     width: 290px;
     height: 420px;
@@ -85,15 +95,6 @@ footer {
     text-align: center;
     resize: none;
     display: none;
-}
-
-/*Todo del segundo Div*/
-.cajaDerecha {
-    width: 300px;
-    height: 500px;
-    background-color: white;
-    border-radius: 15px;
-    text-align: center;
 }
 
 .muñeco {
@@ -142,6 +143,11 @@ footer {
     background: #0A3871;
     transform: scale(1.05);
 }
+
+.copyright {
+    color: darkblue;
+    font-size: 13px;
+    margin: 20px;
 
 @media (max-width: 600px){
     .cajaPrincipal{
