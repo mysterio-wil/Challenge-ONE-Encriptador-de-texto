@@ -3,7 +3,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 20px;
-    line-height: 100%;
+    /*line-height: 100%;*/
 }
 
 body {
@@ -249,9 +249,13 @@ body {
         flex-direction: column;
     }
     .cajaDerecha{
-        width: 500px;
-        height: 450px;
+        margin: 0 auto;
+        /*width: 500px;
+        height: 450px;*/
     }
+    .btnDesencriptar, .btnEncriptar{
+        width: auto;
+     }
 
     .etiqueta1 {
         padding: 10px;
@@ -260,4 +264,6 @@ body {
     .etiqueta2 {
         padding: 10px;
     }
+    
+    
 }
