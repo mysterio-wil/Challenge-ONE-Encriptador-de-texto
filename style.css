@@ -1,0 +1,263 @@
+*{
+    
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+body {
+    position: relative;
+    background-color: #ffd49a;
+    /*padding: 20px 0;*/
+    
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+.cajaPrincipal{
+    display: flex;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 80px;*/
+    justify-content: space-evenly;
+}
+
+.cajaIzquierda {
+
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    grid-template-rows: auto;
+}
+.textArea{
+    width: 480px;
+    height: 360px;
+    border: none;
+    resize: none;
+    color: #ff9200;
+    margin-top: 10px;
+    text-transform: lowercase;
+    border-radius: 15px;
+    background:none;
+    text-align: center;
+    
+}
+
+::placeholder{
+    color: #ff9200;
+}
+.textArea:focus{
+    outline: none;
+
+}
+.textArea:hover {
+    border: 1px solid;
+    border-color: rgb(255, 158, 28);
+}
+
+
+.informacion{
+    color: #495057;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 20px;
+    
+    
+}
+
+.btnDesencriptar{
+    background-color: white;
+    border: 1px solid #ff9200;
+    border-radius: 15px;
+    color: #ff9200;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 15px;
+    width: 200px;
+    
+}
+
+.btnDesencriptar:hover {
+    text-transform: uppercase;
+    font-size: 15px;
+    background: white;
+    transform: scale(1.05);
+}
+
+.btnEncriptar{
+    background-color: #ff9200;
+    border: 1px solid #ff9200;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+    height: 50px;
+    width: 200px;
+    
+}
+
+.btnEncriptar:hover {
+    text-transform: uppercase;
+    font-size: 15px;
+    background: #ff9200;
+    transform: scale(1.05);
+}
+
+
+.cajaDerecha {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 hsl(223deg 59% 31% / 80%);
+}
+
+.areaTextoEncriptado {
+    width: 290px;
+    height: 420px;
+    background: white;
+    /*background-image: url("img/fotoBuscador.png");
+    background-repeat: no-repeat;*/
+    border: none;
+    resize: none;
+    display: none;
+    border-radius: 15px;
+    color: #ff9200;
+    /*margin-left: 98px;*/
+    margin-top: 10px;
+    text-align: center;
+  
+    /*padding-left: 20px;
+    position: fixed;*/
+
+}
+
+.areaTextoEncriptado:focus{
+    outline: none;
+}
+
+.areaTextoEncriptado:hover {
+    border: 1px solid;
+    border-color: rgb(255, 158, 28);
+
+}
+
+.labelEncriptador {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+
+.etiqueta1{
+    padding: 50px;
+    font-weight: bold;
+    font-style: verdana;
+    color: #495057;
+    /*background-color: white;*/
+
+}
+
+.etiqueta2{
+    padding: 30px;
+    font-size: 12px;
+    font-style: italic;
+    color: #495057;
+    /*background-color: white;*/
+    /*border: 1px solid #0a3871;*/
+}
+
+.muñeco {
+    width: 250px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+   
+}
+
+.btnCopiar{
+    width: 100px;
+    /*margin-block: 15px;*/
+    border: 1px solid #ff9200;
+    border-radius: 15px;
+    color: #ff9200;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 50px;
+    /*border: none;*/
+    display: none;
+    /*margin-left: 100px;
+    margin-top: 402px;
+    position: relative;*/  
+}
+.btnCopiar:hover {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background: #ff9200;
+    transform: scale(1.05);
+}
+
+
+.btnLimpiar{
+    width: 100px;
+    /*margin-block: 30px;*/
+    border: 1px solid #ff9200;
+    border-radius: 15px;
+    color: #ff9200;
+    cursor: pointer;
+    height: 50px;
+    /*border: none;*/
+    display: none;
+    /*margin-left: 100px;
+    margin-top: 402px;
+    position: relative;*/ 
+}
+
+.btnLimpiar:hover {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background: #ff9200;
+    transform: scale(1.05);
+}
+
+.footer{
+    text-align: center;
+    padding: 0 10px 10px 0;
+    margin: 20px;
+    position: relative;
+    color: #ff9200;
+    font-family: 'Inter';
+    font-weight: bold;
+    
+}
+
+/*responsive*/
+
+@media (max-width: 600px){
+    .cajaPrincipal{
+        flex-direction: column;
+    }
+    .cajaDerecha{
+        width: 500px;
+        height: 450px;
+    }
+
+    .etiqueta1 {
+        padding: 10px;
+    }
+    
+    .etiqueta2 {
+        padding: 10px;
+    }
+}

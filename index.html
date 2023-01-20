@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo2.png" alt="logo de Alura" >
+    </header>
+    <main class="cajaPrincipal">
+        <section class="cajaIzquierda">
+            <textarea class="textArea" id="areaEncriptar" cols="30" rows="10" placeholder="Ingrese texto aquí"></textarea>
+            <div>
+                <h6 class="informacion"><i class='fa-solid fa-circle-exclamation'></i> Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div>
+                <button class="btnEncriptar" id="btnEncriptar">🔐Encriptar</button>
+                <button class="btnDesencriptar" id="btnDesencriptar">🔓Desencriptar</button>
+            </div>
+        </section>
+        <section class="cajaDerecha">
+            <label class="labelEncriptador" id="mensajeEncriptado">
+                <img class="muñeco" src="/img/encriptado.jpg" alt="imagenBuscador">
+                <p class="etiqueta1">Ningún mensaje fue encontrado</p>
+                <p class="etiqueta2">Ingrese el texto que desees encriptar o desecriptar</p>
+            </label>
+            <textarea class="areaTextoEncriptado" id="areaTextoEncriptado" cols="30" rows="10"></textarea>
+            <div class="botones">
+                <button class="btnCopiar" id="btnCopiar">Copiar</button>
+                <button class="btnLimpiar" id="btnLimpiar">Limpiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="encrypter.js"></script>
+    <footer>
+        <p class="footer">&copy Copyright Wilmer Gulcochia Sanchez - 2022</p>
+    </footer>
+</body>
+
+</html>
