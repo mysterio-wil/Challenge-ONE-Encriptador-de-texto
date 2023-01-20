@@ -250,8 +250,7 @@ body {
     }
     .cajaDerecha{
         margin: 0 auto;
-        /*width: 500px;
-        height: 450px;*/
+        
     }
     .btnDesencriptar, .btnEncriptar{
         width: auto;
