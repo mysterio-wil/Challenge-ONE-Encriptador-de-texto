@@ -234,12 +234,21 @@ body {
 .footer{
     text-align: center;
     padding: 0 10px 10px 0;
-    margin: 20px;
+    margin-top: 20px;
     position: relative;
     color: #ff9200;
     font-family: 'Inter';
     font-weight: bold;
     
+}
+.footer2{
+    text-align: center;
+
+    margin-bottom: 20px;
+    position: relative;
+    color: #ff9200;
+    font-family: 'Inter';
+    font-weight: bold;
 }
 
 /*responsive*/
