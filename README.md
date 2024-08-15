@@ -44,4 +44,4 @@ El Trello es una herramienta de uso individual para que puedas controlar el prog
 
 Buen proyecto!
 
-[Visualiza mi repositorio](https://mysterio-wil.github.io/Challenge-ONE-Encriptador-de-texto/)
+<a href="https://mysterio-wil.github.io/Challenge-ONE-Encriptador-de-texto/" target="_blank">Encriptador de texto</a>
